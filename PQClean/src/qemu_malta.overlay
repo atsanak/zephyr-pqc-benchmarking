@@ -1,0 +1,8 @@
+/*
+ * Device Tree Overlay for QEMU MIPS Malta
+ * Increases SRAM to 2MB to accommodate PQC benchmarking
+ */
+
+&sram0 {
+    reg = <0x80200000 0x200000>;  /* 2MB instead of default 1MB */
+};

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="620" viewBox="0 0 1160 620" role="img" aria-labelledby="title desc">
+  <title id="title">Zephyr PQC Benchmarking Architecture</title>
+  <desc id="desc">A high-level diagram showing PQClean implementations feeding a Zephyr benchmark application, metric collectors, CSV export, and analysis outputs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7fafc; }
+      .box { fill: #ffffff; stroke: #2d3748; stroke-width: 2; rx: 14; }
+      .blue { fill: #e6f0ff; stroke: #1f5fbf; }
+      .green { fill: #e8f6ef; stroke: #237a4b; }
+      .orange { fill: #fff3e0; stroke: #b46000; }
+      .gray { fill: #edf2f7; stroke: #4a5568; }
+      .title { font: 700 24px Arial, sans-serif; fill: #1a202c; }
+      .text { font: 16px Arial, sans-serif; fill: #2d3748; }
+      .small { font: 13px Arial, sans-serif; fill: #4a5568; }
+      .arrow { stroke: #2d3748; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 z" fill="#2d3748"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1160" height="620"/>
+  <text class="title" x="40" y="52">Zephyr/QEMU Post-Quantum Benchmarking Framework</text>
+
+  <rect class="box blue" x="50" y="105" width="245" height="150"/>
+  <text class="title" x="75" y="145">PQClean Code</text>
+  <text class="text" x="75" y="178">crypto_kem</text>
+  <text class="text" x="75" y="205">crypto_sign</text>
+  <text class="text" x="75" y="232">common primitives</text>
+
+  <rect class="box green" x="360" y="88" width="300" height="185"/>
+  <text class="title" x="390" y="128">Zephyr App</text>
+  <text class="text" x="390" y="162">algorithm registries</text>
+  <text class="text" x="390" y="189">operation isolation</text>
+  <text class="text" x="390" y="216">dynamic iterations</text>
+  <text class="text" x="390" y="243">TEE abstraction hooks</text>
+
+  <rect class="box orange" x="730" y="88" width="360" height="185"/>
+  <text class="title" x="760" y="128">Metric Collectors</text>
+  <text class="text" x="760" y="162">cycles, percentiles, CV, MAD</text>
+  <text class="text" x="760" y="189">stack, heap caps, entropy</text>
+  <text class="text" x="760" y="216">modelled energy</text>
+  <text class="text" x="760" y="243">cache/TLB stress and TAF</text>
+
+  <rect class="box gray" x="225" y="365" width="270" height="145"/>
+  <text class="title" x="255" y="405">QEMU Targets</text>
+  <text class="text" x="255" y="438">ARM, RISC-V, x86</text>
+  <text class="text" x="255" y="465">ARC, Xtensa, MIPS</text>
+  <text class="text" x="255" y="492">SPARC LEON3</text>
+
+  <rect class="box blue" x="570" y="365" width="250" height="145"/>
+  <text class="title" x="600" y="405">CSV Export</text>
+  <text class="text" x="600" y="438">raw QEMU logs</text>
+  <text class="text" x="600" y="465">schema validation</text>
+  <text class="text" x="600" y="492">validated results</text>
+
+  <rect class="box green" x="895" y="365" width="220" height="145"/>
+  <text class="title" x="925" y="405">Analysis</text>
+  <text class="text" x="925" y="438">summaries</text>
+  <text class="text" x="925" y="465">audit notes</text>
+  <text class="text" x="925" y="492">deployment guidance</text>
+
+  <path class="arrow" d="M295 180 H350"/>
+  <path class="arrow" d="M660 180 H720"/>
+  <path class="arrow" d="M510 273 V352"/>
+  <path class="arrow" d="M495 438 H560"/>
+  <path class="arrow" d="M820 438 H885"/>
+  <path class="arrow" d="M910 273 V352"/>
+
+  <text class="small" x="48" y="575">Scope: primitive-level Zephyr/QEMU benchmarking with PQClean reference C. Physical-board timing, power, and certified TRNG behavior require separate validation.</text>
+</svg>
+

@@ -1,0 +1,5 @@
+# Disable problematic configs
+CONFIG_WARN_EXPERIMENTAL=n
+# Suppress warnings about QEMU_TARGET
+CONFIG_QEMU_ICOUNT=n
+CONFIG_QEMU_ICOUNT_SHIFT=0

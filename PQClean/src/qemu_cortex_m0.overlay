@@ -1,0 +1,12 @@
+/*
+ * Device Tree Overlay for QEMU Cortex-M0
+ * Increases SRAM to 2MB to accommodate PQC benchmarking
+ */
+
+&sram0 {
+    reg = <0x20000000 0x200000>;  /* 2MB instead of default 16KB */
+};
+
+&flash0 {
+    reg = <0x00000000 0x200000>;  /* 2MB flash */
+};

@@ -1,0 +1,50 @@
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Zephyr and CMake build products
+build/
+build*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+*.ninja
+.ninja_deps
+.ninja_log
+zephyr/
+modules/
+bootloader/
+.west/
+
+# Generated benchmark logs and local outputs
+logs/
+logs_parallel/
+results/raw/
+PQClean/src/benchmark_outputs/
+*.log
+*.stat
+*.elf
+*.hex
+*.bin
+*.map
+
+# Secrets and local machine config
+.env
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.vscode/
+.idea/
+
