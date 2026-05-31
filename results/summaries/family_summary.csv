@@ -1,0 +1,7 @@
+Family,Rows,Algorithms,Median_Cycles,Median_Energy_uJ,Median_CV_pct,Median_Entropy_ms,Min_Stack_KB,Max_Stack_KB,Failure64KB_Rows
+ML-KEM,117,ml-kem-1024; ml-kem-512; ml-kem-768,1177230.0,3604.408,0.063,127.0,15.859,30.715,0
+HQC,75,hqc-128; hqc-256,196109137.0,587337.504,0.0,13883.6,54.57,181.105,0
+ML-DSA,99,ml-dsa-44; ml-dsa-65; ml-dsa-87,5715836.0,14519.013,0.683,568.8,52.25,130.332,0
+Falcon,147,falcon-1024; falcon-512; falcon-padded-1024; falcon-padded-512,65880657.0,194593.243,0.221,19527.0,43.629,93.871,0
+SLH-DSA / SPHINCS+,42,sphincs-sha2-128f-simple; sphincs-sha2-256f-simple,38151387.5,244012.866,0.0015,6851.5,12.379,18.426,0
+Classic McEliece,18,mceliece348864f,203775328.0,916660.965,0.036,440489.8,424.461,425.02,18

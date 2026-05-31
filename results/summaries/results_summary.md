@@ -45,3 +45,4 @@ This summary is generated from `results/final/validated_results.csv`.
 - Energy is modelled from cycle counts and ISA coefficients; it is not board-measured power.
 - QEMU results support controlled cross-ISA comparison, not physical-board timing certification.
 - `results/summaries/result_file_audit.md` explains which CSV files were included or excluded.
+- `figures/results/` contains generated SVG figures from the same trusted CSV.

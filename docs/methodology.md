@@ -43,7 +43,17 @@ The public dataset keeps only rows that pass these checks:
 
 Rows that are incomplete, duplicate, malformed, or source-mismatched are excluded from `results/final/validated_results.csv`.
 
+## Generated Public Evidence
+
+Run `python3 scripts/analyze_results.py` to regenerate:
+
+- `results/summaries/results_summary.md`
+- `results/summaries/family_summary.csv`
+- `results/summaries/operation_summary.csv`
+- `results/summaries/isa_summary.csv`
+- `results/summaries/validation_report.md`
+- `figures/results/*.svg`
+
 ## Limits
 
 QEMU gives controlled cross-ISA comparison, but it is not physical silicon. Energy is modelled, not measured by a power probe. Entropy behavior uses the Zephyr/QEMU environment and should be recalibrated on real hardware.
-

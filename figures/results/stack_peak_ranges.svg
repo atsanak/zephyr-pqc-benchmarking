@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="38.0" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#1f2937">Peak Stack Range by Algorithm Family</text>
+<text x="40.0" y="62.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">Min-to-max Stack_Peak_Bytes converted to KB.</text>
+<line x1="330.9" y1="76" x2="330.9" y2="375" stroke="#e5e7eb"/>
+<text x="330.9" y="402.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">64 KB</text>
+<line x1="431.8" y1="76" x2="431.8" y2="375" stroke="#e5e7eb"/>
+<text x="431.8" y="402.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">128 KB</text>
+<line x1="633.6" y1="76" x2="633.6" y2="375" stroke="#e5e7eb"/>
+<text x="633.6" y="402.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">256 KB</text>
+<line x1="835.3" y1="76" x2="835.3" y2="375" stroke="#e5e7eb"/>
+<text x="835.3" y="402.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">384 KB</text>
+<text x="40.0" y="106.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">ML-KEM</text>
+<line x1="255.0" y1="101.0" x2="278.4" y2="101.0" stroke="#2f6fb0" stroke-width="13" stroke-linecap="round"/>
+<circle cx="255.0" cy="101.0" r="7" fill="#ffffff" stroke="#2f6fb0" stroke-width="3"/>
+<circle cx="278.4" cy="101.0" r="7" fill="#ffffff" stroke="#2f6fb0" stroke-width="3"/>
+<text x="290.4" y="106.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">15.9-30.7 KB</text>
+<text x="40.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">HQC</text>
+<line x1="316.0" y1="149.0" x2="515.5" y2="149.0" stroke="#d98c2b" stroke-width="13" stroke-linecap="round"/>
+<circle cx="316.0" cy="149.0" r="7" fill="#ffffff" stroke="#d98c2b" stroke-width="3"/>
+<circle cx="515.5" cy="149.0" r="7" fill="#ffffff" stroke="#d98c2b" stroke-width="3"/>
+<text x="527.5" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">54.6-181.1 KB</text>
+<text x="40.0" y="202.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">ML-DSA</text>
+<line x1="312.4" y1="197.0" x2="435.5" y2="197.0" stroke="#3f8f6b" stroke-width="13" stroke-linecap="round"/>
+<circle cx="312.4" cy="197.0" r="7" fill="#ffffff" stroke="#3f8f6b" stroke-width="3"/>
+<circle cx="435.5" cy="197.0" r="7" fill="#ffffff" stroke="#3f8f6b" stroke-width="3"/>
+<text x="447.5" y="202.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">52.2-130.3 KB</text>
+<text x="40.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">Falcon</text>
+<line x1="298.8" y1="245.0" x2="378.0" y2="245.0" stroke="#7a5aa6" stroke-width="13" stroke-linecap="round"/>
+<circle cx="298.8" cy="245.0" r="7" fill="#ffffff" stroke="#7a5aa6" stroke-width="3"/>
+<circle cx="378.0" cy="245.0" r="7" fill="#ffffff" stroke="#7a5aa6" stroke-width="3"/>
+<text x="390.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">43.6-93.9 KB</text>
+<text x="40.0" y="298.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">SLH-DSA / SPHINCS+</text>
+<line x1="249.5" y1="293.0" x2="259.0" y2="293.0" stroke="#7d6651" stroke-width="13" stroke-linecap="round"/>
+<circle cx="249.5" cy="293.0" r="7" fill="#ffffff" stroke="#7d6651" stroke-width="3"/>
+<circle cx="259.0" cy="293.0" r="7" fill="#ffffff" stroke="#7d6651" stroke-width="3"/>
+<text x="271.0" y="298.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">12.4-18.4 KB</text>
+<text x="40.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">Classic McEliece</text>
+<line x1="899.1" y1="341.0" x2="900.0" y2="341.0" stroke="#b8483c" stroke-width="13" stroke-linecap="round"/>
+<circle cx="899.1" cy="341.0" r="7" fill="#ffffff" stroke="#b8483c" stroke-width="3"/>
+<circle cx="900.0" cy="341.0" r="7" fill="#ffffff" stroke="#b8483c" stroke-width="3"/>
+<text x="912.0" y="346.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">424.5-425.0 KB</text>
+</svg>

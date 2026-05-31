@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="470" viewBox="0 0 1040 470">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="38.0" font-family="Arial, Helvetica, sans-serif" font-size="24" text-anchor="start" font-weight="700" fill="#1f2937">Validation-Oriented Quality Gates by Family</text>
+<text x="40.0" y="62.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">Percent of rows passing timing stability, stress-tail, and heap-cap checks.</text>
+<line x1="210.0" y1="82" x2="210.0" y2="412" stroke="#e5e7eb"/>
+<text x="210.0" y="440.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">0%</text>
+<line x1="397.5" y1="82" x2="397.5" y2="412" stroke="#e5e7eb"/>
+<text x="397.5" y="440.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">25%</text>
+<line x1="585.0" y1="82" x2="585.0" y2="412" stroke="#e5e7eb"/>
+<text x="585.0" y="440.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">50%</text>
+<line x1="772.5" y1="82" x2="772.5" y2="412" stroke="#e5e7eb"/>
+<text x="772.5" y="440.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">75%</text>
+<line x1="960.0" y1="82" x2="960.0" y2="412" stroke="#e5e7eb"/>
+<text x="960.0" y="440.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">100%</text>
+<text x="40.0" y="119.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">ML-KEM</text>
+<rect x="210" y="95" width="435.9" height="10" rx="3" fill="#2563eb" opacity="0.88"/>
+<text x="652.9" y="104.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">58%</text>
+<rect x="210" y="109" width="743.6" height="10" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="960.6" y="118.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">99%</text>
+<rect x="210" y="123" width="750.0" height="10" rx="3" fill="#d97706" opacity="0.88"/>
+<text x="967.0" y="132.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<text x="40.0" y="171.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">HQC</text>
+<rect x="210" y="147" width="690.0" height="10" rx="3" fill="#2563eb" opacity="0.88"/>
+<text x="907.0" y="156.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">92%</text>
+<rect x="210" y="161" width="740.0" height="10" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="957.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">99%</text>
+<rect x="210" y="175" width="750.0" height="10" rx="3" fill="#d97706" opacity="0.88"/>
+<text x="967.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<text x="40.0" y="223.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">ML-DSA</text>
+<rect x="210" y="199" width="280.3" height="10" rx="3" fill="#2563eb" opacity="0.88"/>
+<text x="497.3" y="208.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">37%</text>
+<rect x="210" y="213" width="719.7" height="10" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="936.7" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">96%</text>
+<rect x="210" y="227" width="750.0" height="10" rx="3" fill="#d97706" opacity="0.88"/>
+<text x="967.0" y="236.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<text x="40.0" y="275.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">Falcon</text>
+<rect x="210" y="251" width="341.8" height="10" rx="3" fill="#2563eb" opacity="0.88"/>
+<text x="558.8" y="260.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">46%</text>
+<rect x="210" y="265" width="668.4" height="10" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="885.4" y="274.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">89%</text>
+<rect x="210" y="279" width="750.0" height="10" rx="3" fill="#d97706" opacity="0.88"/>
+<text x="967.0" y="288.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<text x="40.0" y="327.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">SLH-DSA / SPHINCS+</text>
+<rect x="210" y="303" width="696.4" height="10" rx="3" fill="#2563eb" opacity="0.88"/>
+<text x="913.4" y="312.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">93%</text>
+<rect x="210" y="317" width="750.0" height="10" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="967.0" y="326.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<rect x="210" y="331" width="750.0" height="10" rx="3" fill="#d97706" opacity="0.88"/>
+<text x="967.0" y="340.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<text x="40.0" y="379.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="start" font-weight="700" fill="#1f2937">Classic McEliece</text>
+<rect x="210" y="355" width="416.7" height="10" rx="3" fill="#2563eb" opacity="0.88"/>
+<text x="633.7" y="364.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">56%</text>
+<rect x="210" y="369" width="750.0" height="10" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="967.0" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">100%</text>
+<rect x="210" y="383" width="0.0" height="10" rx="3" fill="#d97706" opacity="0.88"/>
+<text x="217.0" y="392.0" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" font-weight="400" fill="#1f2937">0%</text>
+<rect x="690" y="34" width="12" height="12" fill="#2563eb" rx="2"/>
+<text x="707.0" y="45.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" font-weight="400" fill="#1f2937">CV &lt; 0.2%</text>
+<rect x="802" y="34" width="12" height="12" fill="#16a34a" rx="2"/>
+<text x="819.0" y="45.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" font-weight="400" fill="#1f2937">TAF &lt;= 1.05</text>
+<rect x="914" y="34" width="12" height="12" fill="#d97706" rx="2"/>
+<text x="931.0" y="45.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="start" font-weight="400" fill="#1f2937">No 64KB fail</text>
+</svg>

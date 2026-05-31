@@ -20,6 +20,10 @@ Detailed architecture notes:
 
 `docs/architecture.md`
 
+Result schema notes:
+
+`docs/result_schema.md`
+
 ## Benchmarking Methodology
 
 Each accepted result row represents one:
@@ -97,6 +101,12 @@ export ZEPHYR_BASE=/path/to/zephyr
 scripts/run_benchmarks.sh ml-kem-512 qemu_x86_64
 ```
 
+Preview the public-result matrix without running it:
+
+```sh
+scripts/verify_matrix.sh --final-matrix --dry-run
+```
+
 Raw run logs are written under:
 
 ```text
@@ -150,6 +160,17 @@ Generated summary:
 
 `results/summaries/results_summary.md`
 
+Additional generated evidence:
+
+- `results/summaries/family_summary.csv`
+- `results/summaries/operation_summary.csv`
+- `results/summaries/isa_summary.csv`
+- `results/summaries/validation_report.md`
+- `figures/results/family_median_cycles.svg`
+- `figures/results/stack_peak_ranges.svg`
+- `figures/results/entropy_recovery_by_family.svg`
+- `figures/results/quality_gates_by_family.svg`
+
 ## CSV and Result Files
 
 Only one benchmark CSV is trusted for public analysis:
@@ -161,6 +182,12 @@ The original project had multiple overlapping CSVs from local, server, partial, 
 Audit details:
 
 `results/summaries/result_file_audit.md`
+
+Regenerate all summaries and figures:
+
+```sh
+python3 scripts/analyze_results.py
+```
 
 ## Reproducibility Notes
 
