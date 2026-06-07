@@ -4,23 +4,7 @@ Reproducible post-quantum cryptography benchmarking for embedded systems using Z
 
 This repository is a cleaned **public review version** of an embedded PQC measurement framework. It is organized for reviewers who want to inspect the source, understand the measurement methodology, reproduce a sample run, and verify the published result CSV without sorting through local build artifacts or experimental leftovers.
 
-## What this repo proves
-
-- I can build a **cross-ISA embedded PQC measurement harness in C** on Zephyr/QEMU that isolates each KEM/signature operation instead of reporting one blended average.
-- I can drive a **multi-metric** methodology (cycle statistics, tail percentiles, CV/MAD, stack and heap-cap behaviour, entropy/RNG demand, modelled energy, cache/TLB stress) and turn raw serial logs into a single validated, audited CSV.
-- I can reason about **PQC cost across architectures** (ARM Cortex-A/R, RISC-V, x86, MIPS, ARC, Xtensa, SPARC/LEON) and across the FIPS + selected-candidate families (ML-KEM, ML-DSA, Falcon, HQC, SLH-DSA/SPHINCS+, Classic McEliece).
-
-## Public scope (read before judging the numbers)
-
-This is a **representative implementation** and **sanitized artifact**: the core ideas are demonstrated publicly, but the full cross-device research dataset, energy-probe runs, and paper artifacts are private due to publication and consortium constraints. **Only** `results/final/validated_results.csv` is treated as public evidence. The public headline figure is a **166.6× median HQC/ML-KEM cycle ratio** measured on the included QEMU subset; the cross-device "135× median speedup" quoted on my CV comes from the larger **private** campaign and is **not** claimed here.
-
-## Reviewer guide — start here
-
-1. Read **Results Summary** below and open [`results/final/validated_results.csv`](results/final/validated_results.csv) — 498 validated rows; no build required to judge methodology.
-2. Skim [`docs/methodology.md`](docs/methodology.md) for how a row is defined and quality-gated.
-3. Optional reproduction: `scripts/run_benchmarks.sh ml-kem-512 qemu_x86_64` (needs an existing Zephyr environment with `ZEPHYR_BASE` set).
-
-**CV → this repo:** evidence for the CV line *"cross-architecture benchmarking framework in C across 13 ISAs and a 49-metric suite."* The public CSV demonstrates the 13-ISA, multi-metric method on QEMU; full-campaign speedups are private.
+This is a public, demo/review version of a larger project. The full cross-device dataset, energy-probe runs, and paper artifacts are private due to publication and consortium constraints, so the results here come from a smaller public subset and some numbers differ from the full private work. Only `results/final/validated_results.csv` is treated as public evidence.
 
 ## Motivation
 
