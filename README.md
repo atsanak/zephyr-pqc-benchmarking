@@ -6,6 +6,12 @@ This repository is a cleaned **public review version** of an embedded PQC measur
 
 This is a public, demo/review version of a larger project. The full cross-device dataset, energy-probe runs, and paper artifacts are private due to publication and consortium constraints, so the results here come from a smaller public subset and some numbers differ from the full private work. Only `results/final/validated_results.csv` is treated as public evidence.
 
+## Quick Technical Review
+
+- Follow benchmark orchestration in [`main.c`](PQClean/src/main.c), then inspect the [KEM](PQClean/src/kem_registry.c) and [signature](PQClean/src/sig_registry.c) registries.
+- Read the [measurement methodology](docs/methodology.md) and [result schema](docs/result_schema.md) to see how runs become comparable evidence.
+- Inspect the [validated dataset](results/final/validated_results.csv) with its [validation report](results/summaries/validation_report.md), or preview the build matrix with `scripts/verify_matrix.sh --final-matrix --dry-run`.
+
 ## Motivation
 
 Post-quantum migration is not only a cryptographic standards problem. Embedded systems also need evidence about timing tails, memory headroom, entropy recovery, and stress behavior under RTOS-style constraints. This project measures KEM and signature operations in isolation so that deployment decisions can be made per operation rather than from a single average.
